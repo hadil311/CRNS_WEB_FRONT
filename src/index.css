@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 760px;
+  margin: 10px auto;
+  padding: 1rem 0;
+  border-bottom: solid 1px #52BE80;
+
+}
+.logo{
+
+  text-decoration: none ;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1D8348 ;
+
+}
+ 
+.liens{
+  display: flex;
+  list-style: none;
+}
+
+.liens li {
+  margin-left: 2rem;
+}
+
+.liens li a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color:  #1D8348;
+}
+.App{
+  position: relative;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  align-items: center;
+  height: 90vh;
+}
+.buttonArticle{
+  background-color : #1D8348;
+  padding : 0.5rem;
+  border-radius: 0.5rem ;
+  color:#fff !important;
+}
+
+.buttonAcceuil{
+  background-color : #1D8348;
+  padding : 0.5rem;
+  border-radius: 0.5rem ;
+  color:#fff !important;
+}
+
+.contenu{
+  width: 760px;
+  margin:0 auto ;
+}
+.bloglist{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.blog{
+  text-align: left;
+  padding: 0.2rem;
+  margin: 1rem 0;
+}
+
+.blog:hover{
+  -webkit-box-shadow: 2px 1px 8px 0px #52BE80;
+  -moz-box-shadow:    2px 1px 8px 0px #52BE80;
+  box-shadow:         2px 1px 8px 0px #52BE80;
+
+}
+
+.blog-publication-date{
+  font-style: italic;
+  color :#1D8348
+}
+
+.blog-titre{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #1D8348;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  display:flex ;
+  flex-direction: column;
+  font-weight: bolder;
+}
+
+.blog-body{
+  font-size: 1.2rem;
+  text-align: justify;
+  color :#1D8348;
+}
+
+.blog-author{
+  font-style: italic;
+  color: #1D8348;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+ margin: 1rem 0;
+ 
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+   text-align: left;
+   margin: 15px;
+}
+label{
+  font-size: 1rem;
+  color: #1D8348;
+}
+.form-control{
+  height: 2rem;
+  font-size: large;
+  border-radius: 0.2rem;
+  border: solid 1px  #bbb;
+  font-size: 1rem;
+  color: #52BE80;
+}
+
+.btn-create{
+  background: #1D8348;
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  border: none;
+  width: 150px;
+  font-size: 1.2rem;
+}
+.btn-supp{
+  background: #1D8348;
+  color: #fff;
+  border-radius: 0.3rem;
+  border: none;
+  width: 100px;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
